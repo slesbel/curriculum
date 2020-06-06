@@ -40,7 +40,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
-  var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+   var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
 
   // HTML Chart
   var doughnutData = [{
@@ -78,39 +78,5 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
   
-  // ReactJs Chart
-  var doughnutData = [{
-    value: 60,
-    color: "#1abc9c"
-  },
-  {
-    value: 40,
-    color: "#ecf0f1"
-  }
-  ];
-  var myDoughnut = new Chart(document.getElementById("ReactJs").getContext("2d")).Doughnut(doughnutData);
-  
-  // ReactNative Chart
-  var doughnutData = [{
-    value: 80,
-    color: "#1abc9c"
-  },
-  {
-    value: 20,
-    color: "#ecf0f1"
-  }
-  ];
-  var myDoughnut = new Chart(document.getElementById("ReactNative").getContext("2d")).Doughnut(doughnutData);
-  
-  // OpenCV Chart
-  var doughnutData = [{
-    value: 60,
-    color: "#1abc9c"
-  },
-  {
-    value: 40,
-    color: "#ecf0f1"
-  }
-  ];
-  var myDoughnut = new Chart(document.getElementById("OpenCV").getContext("2d")).Doughnut(doughnutData);
+
 });
