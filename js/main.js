@@ -78,5 +78,41 @@ jQuery(document).ready(function( $ ) {
   ];
   var myDoughnut = new Chart(document.getElementById("Python").getContext("2d")).Doughnut(doughnutData);
   
+  // ReactJs Chart
+  var doughnutData = [{
+    value: 70,
+    color: "#1abc9c"
+  },
+  {
+    value: 30,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("ReactJs").getContext("2d")).Doughnut(doughnutData);
+  
+  // ReactNative Chart
+  var doughnutData = [{
+    value: 70,
+    color: "#1abc9c"
+  },
+  {
+    value: 30,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("ReactNative").getContext("2d")).Doughnut(doughnutData);
+  
+  // OpenCV Chart
+  var doughnutData = [{
+    value: 70,
+    color: "#1abc9c"
+  },
+  {
+    value: 30,
+    color: "#ecf0f1"
+  }
+  ];
+  var myDoughnut = new Chart(document.getElementById("OpenCV").getContext("2d")).Doughnut(doughnutData);
+  
 
 });
