@@ -80,7 +80,7 @@ jQuery(document).ready(function( $ ) {
   
   // ReactJs Chart
   var doughnutData = [{
-    value: 70,
+    value: 65,
     color: "#1abc9c"
   },
   {
@@ -92,7 +92,7 @@ jQuery(document).ready(function( $ ) {
   
   // ReactNative Chart
   var doughnutData = [{
-    value: 65,
+    value: 85,
     color: "#1abc9c"
   },
   {
@@ -104,7 +104,7 @@ jQuery(document).ready(function( $ ) {
   
   // OpenCV Chart
   var doughnutData = [{
-    value: 85,
+    value: 60,
     color: "#1abc9c"
   },
   {
