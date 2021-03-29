@@ -92,7 +92,7 @@ jQuery(document).ready(function( $ ) {
   
   // ReactNative Chart
   var doughnutData = [{
-    value: 85,
+    value: 95,
     color: "#1abc9c"
   },
   {
